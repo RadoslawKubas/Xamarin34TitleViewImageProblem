@@ -4,11 +4,10 @@
              xmlns:local="clr-namespace:Xamarin"
              x:Class="Xamarin.MainPage">
 
+    <NavigationPage.TitleView>
+        <ImageButton Source="xamarin.png" HeightRequest="40"/>
+    </NavigationPage.TitleView>
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
     </StackLayout>
 
 </ContentPage>
